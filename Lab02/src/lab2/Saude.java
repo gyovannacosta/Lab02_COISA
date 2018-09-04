@@ -1,19 +1,35 @@
 package lab2;
 
 public class Saude {
-
-	public char[] getStatusGeral() {
-		// TODO Auto-generated method stub
-		return null;
+	private String saudeMental;
+	private String saudeFisica;
+	
+	public Saude() {
+		this.saudeFisica = "boa";
+		this.saudeMental = "boa";
 	}
 
-	public void defineSaudeMental(String string) {
-		// TODO Auto-generated method stub
+	public String getStatusGeral() {
+		if(this.saudeMental.equals("boa")) {
+			if(this.saudeFisica.equals("boa")) {
+				return "boa";
+			}
+			return "ok";
+		}else {
+			if(this.saudeFisica.equals("boa")) {
+				return "ok";
+			}
+			return "fraca";
+		}
+	}
+
+	public void defineSaudeMental(String estado) {
+		this.saudeMental = estado;
 		
 	}
 
-	public void defineSaudeFisica(String string) {
-		// TODO Auto-generated method stub
+	public void defineSaudeFisica(String estado) {
+		this.saudeFisica = estado;
 		
 	}
 

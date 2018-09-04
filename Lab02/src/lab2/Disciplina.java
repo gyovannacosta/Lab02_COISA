@@ -3,10 +3,10 @@ package lab2;
 import java.util.Arrays;
 
 public class Disciplina {
-	public String nome;
-	public double[] notas;
-	public int horas;
-	public double media;
+	private String nome;
+	private double[] notas;
+	private int horas;
+	private double media;
 	
 
 	public Disciplina(String nomeDisciplina) {

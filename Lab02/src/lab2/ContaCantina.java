@@ -1,24 +1,35 @@
 package lab2;
 
 public class ContaCantina {
+	private String nome;
+	private int qtdItens;
+	private int valor;
+	private int valorPago;
 
-	public ContaCantina(String string) {
-		// TODO Auto-generated constructor stub
+	public ContaCantina(String nomeCantina) {
+		this.nome = nomeCantina;
+		this.qtdItens = 0;
+		this.valor = 0;
+		this.valorPago = 0;
 	}
 
-	public void cadastraLanche(int i, int j) {
-		// TODO Auto-generated method stub
+	public void cadastraLanche(int qtd, int centavos) {
+		this.qtdItens += qtd;
+		this.valor += centavos;
 		
 	}
 
-	public void pagaConta(int i) {
-		// TODO Auto-generated method stub
-		
+	public void pagaConta(int centavos) {
+		this.valorPago += centavos;
 	}
 
-	public char[] getFaltaPagar() {
-		// TODO Auto-generated method stub
-		return null;
+	public int getFaltaPagar() {
+		return this.valor - this.valorPago;
+	}
+	
+	@Override
+	public String toString() {
+		return this.nome + " " + this.qtdItens + " " + this.valor;
 	}
 
 }

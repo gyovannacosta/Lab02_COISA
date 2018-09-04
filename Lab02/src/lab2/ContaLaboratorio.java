@@ -1,9 +1,9 @@
 package lab2;
 
 public class ContaLaboratorio {
-	public String nome;
-	public int cota;
-	public int espacoOcupado;
+	private String nome;
+	private int cota;
+	private int espacoOcupado;
 
 	public ContaLaboratorio(String nomeLaboratorio) {
 		this.nome = nomeLaboratorio;
