@@ -83,7 +83,7 @@ public class Coisa {
             saude.defineSaudeFisica("fraca");
 
             System.out.println(saude.getStatusGeral());
-
+                        
     }  
 
 }
