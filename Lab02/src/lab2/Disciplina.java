@@ -11,17 +11,7 @@ public class Disciplina {
 	
 
 	public Disciplina(String nomeDisciplina) {
-		this.nome = nomeDisciplina;
-		this.notas = new double[4];
-		for (double nota : notas) {
-			nota = 0.0;
-		}
-		this.horas = 0;
-		this.media = 0.0;
-		this.pesos = new int[4];
-		for (int i = 0; i < pesos.length; i++) {
-			pesos[i] = 1;
-		}
+		this(nomeDisciplina, 4);
 	}
 	
 	public Disciplina(String nomeDisciplina, int notasDisciplina) {

@@ -6,8 +6,7 @@ public class ContaLaboratorio {
 	private int espacoOcupado;
 
 	public ContaLaboratorio(String nomeLaboratorio) {
-		this.nome = nomeLaboratorio;
-		this.cota = 2000;
+		this(nomeLaboratorio, 2000);
 		this.espacoOcupado = 0;
 	}
 	
