@@ -34,6 +34,10 @@ public class ContaLaboratorio {
 		
 	}
 	
+	public String getNome() {
+		return this.nome;
+	}
+	
 	@Override
 	public String toString() {
 		return this.nome + " " + this.espacoOcupado + "/" + this.cota;

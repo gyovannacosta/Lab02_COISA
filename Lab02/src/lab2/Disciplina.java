@@ -38,7 +38,7 @@ public class Disciplina {
 		this.media = 0.0;
 		this.pesos = new int[notasDisciplina];
 		for (int i = 0; i < pesos.length; i++) {
-			pesos[i] = peso[i];
+			pesos[i] = peso[i]; 
 		}
 	}
 
@@ -60,6 +60,10 @@ public class Disciplina {
 			return true;
 		}
 		return false;
+	}
+	
+	public String getDisciplina() {
+		return this.nome;
 	}
 	
 	private double calculoMedia() {

@@ -108,6 +108,10 @@ public class ContaCantina {
 		}
 		return listar.trim();
 	}
+	
+	public String getCantina() {
+		return this.nome;
+	}
 
 	/**
 	 * O método toString(), comunica: o nome da cantina, a quantidade de itens e o
