@@ -9,7 +9,7 @@ package lab2;
  * superior ao valor devido. A qualquer momento, o aluno pode consultar o valor
  * que ainda deve na cantina.
  * 
- * @author gyovannac
+ * @author Deborah Gyovanna
  *
  */
 public class ContaCantina {
