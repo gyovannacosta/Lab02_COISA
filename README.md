@@ -13,7 +13,9 @@ A vida do aluno pode ser organizada em quatro atividades básicas:
 - (1) organizar suas contas nos LCCs, 
 - (2) estudar para as disciplinas, 
 - (3) organizar suas contas nas cantinas 
-- (4) acompanhar sua saúde física e mental. Para permitir o controle dessas 4 atividades, você irá desenvolver um sistema que permite avaliar o quanto de espaço você tem usado de um laboratório, o quanto de horas você tem estudado, como está sua conta (e o quanto você tem comido) nas cantinas da universidade e, por fim, como está sua saúde física e mental (e por consequência, sua saúde geral).
+- (4) acompanhar sua saúde física e mental. 
+
+Para permitir o controle dessas 4 atividades, você irá desenvolver um sistema que permite avaliar o quanto de espaço você tem usado de um laboratório, o quanto de horas você tem estudado, como está sua conta (e o quanto você tem comido) nas cantinas da universidade e, por fim, como está sua saúde física e mental (e por consequência, sua saúde geral).
 
 [<img src="https://image.flaticon.com/icons/svg/25/25231.svg" width="60">](http://github.com/gyovannacosta)
 ㅤ ㅤㅤ[<img src="http://www.dsc.ufcg.edu.br/~sacc/img/logo-topo2.png" width="300">](http://www.computacao.ufcg.edu.br/)
